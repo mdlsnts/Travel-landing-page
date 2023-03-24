@@ -139,11 +139,11 @@ section {
 }
 .grid-3-columns-111 {
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15px;
+  grid-gap: 5px;
 }
 .card {
   background-color: white;
-  margin: 20px;
+  margin: 30px;
   border-radius: 3px;
 }
 .card-body {
@@ -291,7 +291,9 @@ div {
   main h4 {
     font-size: 20px;
   }
-
+  .card {
+    margin: 20px;
+  }
   #tokyo-temple {
     margin-top: 5px;
   }
