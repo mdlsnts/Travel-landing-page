@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #fffbf7;
+  --primary-color: #fcfbfa;
   --secondary-color: #1a1a2e;
   --primary-font: "Montserrat", sans-serif;
 }
@@ -7,6 +7,7 @@ body {
   background: var(--primary-color);
   margin: 0 auto;
   max-width: 100%;
+  font-family: var(--primary-font);
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
@@ -16,7 +17,6 @@ header {
   background-position: center;
   color: var(--primary-color);
   text-align: center;
-  font-family: var(--primary-font);
   padding: 120px 50px;
 }
 header h1 {
@@ -58,7 +58,6 @@ main {
   background-color: white;
 }
 main h2 {
-  font-family: var(--primary-font);
   color: var(--secondary-color);
   font-weight: 600;
   font-size: 16px;
@@ -69,24 +68,36 @@ main h2 {
   margin: 0 auto;
 }
 main h3 {
-  font-family: var(--primary-font);
   color: var(--secondary-color);
   font-weight: 800;
   font-size: 32px;
   line-height: 1.5;
   margin: 0 auto;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+  margin: 10px 0px 0px 0px;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+  margin: 0 auto;
+}
 
 main p {
-  font-family: var(--primary-font);
   color: var(--secondary-color);
   font-weight: 300;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5;
   opacity: 0.8;
   text-align: justify;
 }
-main img {
+#tokyo-temple {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -95,6 +106,7 @@ main img {
 }
 .img-responsive {
   max-width: 100%;
+  display: block;
 }
 
 section {
@@ -102,20 +114,59 @@ section {
   margin: 0 auto;
   padding: 40px 0;
 }
+.second-section {
+  background-color: #ebe3df;
+}
+.second-section h2,
+.second-section h3 {
+  text-align: center;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 .grid {
   display: grid;
-  grid-gap: 50px;
 }
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
   padding: 80px;
+  grid-gap: 50px;
 }
-.grid-3-columns {
+.grid-3-columns-122 {
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 50px;
+}
+.grid-3-columns-111 {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.card {
+  background-color: white;
+  margin: 20px;
+  border-radius: 3px;
+}
+.card-body {
+  padding: 20px;
+}
+.card-img {
+  border-radius: 3px;
+}
+
+.card-footer {
+  padding: 0 20px 10px 20px;
+}
+.btn {
+  display: block;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  padding: 15px 25px;
 }
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
@@ -124,7 +175,6 @@ footer {
   background-size: cover;
   background-position: center;
   color: var(--primary-color);
-  font-family: var(--primary-font);
   padding: 20px 40px;
 }
 
@@ -238,8 +288,11 @@ div {
   main h3 {
     font-size: 24px;
   }
+  main h4 {
+    font-size: 20px;
+  }
 
-  main img {
+  #tokyo-temple {
     margin-top: 5px;
   }
 }
