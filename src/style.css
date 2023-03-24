@@ -234,7 +234,7 @@ div {
     font-size: 16px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   header {
     padding: 60px 0;
   }
@@ -264,7 +264,7 @@ div {
     grid-template-columns: 1fr;
   }
   .grid-2-columns {
-    padding: 40px;
+    padding: 50px;
   }
 }
 @media (max-width: 576px) {
@@ -293,6 +293,9 @@ div {
   }
   .card {
     margin: 20px;
+  }
+  .grid-2-columns {
+    padding: 30px;
   }
   #tokyo-temple {
     margin-top: 5px;
