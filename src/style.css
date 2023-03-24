@@ -84,6 +84,7 @@ main p {
   font-size: 17px;
   line-height: 1.5;
   opacity: 0.8;
+  text-align: justify;
 }
 main img {
   display: block;
@@ -136,6 +137,7 @@ footer p {
   font-weight: 200;
   font-size: 14px;
   line-height: 1.5;
+  text-align: justify;
 }
 footer li {
   list-style: none;
