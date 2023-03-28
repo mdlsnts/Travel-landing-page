@@ -28,7 +28,7 @@ header h1 {
 
 header h2 {
   font-weight: 300;
-  font-size: 35px;
+  font-size: 32px;
   line-height: 1.5;
   margin: 0;
 }
@@ -127,6 +127,22 @@ section {
 .second-section h3 {
   text-align: center;
 }
+.third-section h2,
+.third-section h3 {
+  text-align: center;
+}
+.fourth-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.fourth-section {
+  background-color: #ebe3df;
+  padding: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -150,9 +166,10 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
 }
+
 .card {
   background-color: white;
-  margin: 30px;
+  margin: 15px;
   border-radius: 3px;
 }
 .card-body {
@@ -190,6 +207,15 @@ section {
   text-decoration: none;
   background-color: var(--secondary-color);
   padding: 15px 25px;
+}
+.gallery {
+  padding: 20px;
+  grid-gap: 15px;
+}
+.gellery-img {
+  margin: 0 auto;
+  border-radius: 3px;
+  max-width: 600px;
 }
 footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
