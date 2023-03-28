@@ -135,6 +135,9 @@ section {
   text-align: center;
   margin-bottom: 20px;
 }
+.spotify-embed {
+  width: "60%";
+}
 
 .fourth-section {
   background-color: #ebe3df;
@@ -363,5 +366,8 @@ div {
   }
   #tokyo-temple {
     margin-top: 5px;
+  }
+  .spotify-embed {
+    width: "80%";
   }
 }
