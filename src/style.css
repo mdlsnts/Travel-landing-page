@@ -123,6 +123,7 @@ section {
 .second-section {
   background-color: #ebe3df;
 }
+
 .second-section h2,
 .second-section h3 {
   text-align: center;
@@ -136,7 +137,7 @@ section {
   margin-bottom: 20px;
 }
 .spotify-embed {
-  width: "60%";
+  width: 60%;
 }
 
 .fourth-section {
@@ -212,7 +213,7 @@ section {
   padding: 15px 25px;
 }
 .gallery {
-  padding: 20px;
+  padding: 40px;
   grid-gap: 15px;
 }
 .gellery-img {
@@ -368,6 +369,6 @@ div {
     margin-top: 5px;
   }
   .spotify-embed {
-    width: "80%";
+    width: 80%;
   }
 }
