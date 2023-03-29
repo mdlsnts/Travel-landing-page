@@ -211,6 +211,7 @@ section {
   text-decoration: none;
   background-color: var(--secondary-color);
   padding: 15px 25px;
+  margin-bottom: 5px;
 }
 .gallery {
   padding: 40px;
